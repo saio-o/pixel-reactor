@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>プライバシーポリシー</title>
+  <style>
+:root{
+  --bg:#0b0f14; --card:#0f1620; --text:#e6edf3; --muted:#9fb0c0; --link:#6cb6ff;
+  --border:#203040; --accent:#7ee787;
+}
+@media (prefers-color-scheme: light){
+  :root{
+    --bg:#ffffff; --card:#f6f8fa; --text:#1f2328; --muted:#57606a; --link:#0969da;
+    --border:#d0d7de; --accent:#1a7f37;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif;
+  background:var(--bg); color:var(--text); line-height:1.7}
+a{color:var(--link); text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:940px;margin:0 auto;padding:28px 18px 56px}
+.header{padding:18px 0 10px;border-bottom:1px solid var(--border); margin-bottom:18px}
+.badge{display:inline-block;font-size:12px;padding:3px 10px;border:1px solid var(--border);border-radius:999px;color:var(--muted)}
+h1{margin:10px 0 6px;font-size:28px}
+h2{margin-top:28px;font-size:20px}
+h3{margin-top:18px;font-size:16px}
+p,li{color:var(--text)}
+.muted{color:var(--muted)}
+.card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:16px 16px; margin:14px 0}
+.toc ul{margin:8px 0 0 18px}
+hr{border:none;border-top:1px solid var(--border); margin:20px 0}
+small{color:var(--muted)}
+.code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; background:rgba(127,127,127,.12); padding:0 6px; border-radius:6px}
+.notice{border-left:4px solid var(--accent); padding:10px 12px; background:rgba(126,231,135,.08); border-radius:10px}
+.footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--border); color:var(--muted); font-size:13px}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="badge">PIXEL REACTOR</span>
+      <h1>プライバシーポリシー</h1>
+      <div class="muted">最終更新日: 2026-03-03</div>
+    </div>
+    
+<div class="notice">
+  <strong>重要</strong>：当アプリは広告配信（Google AdMob）および買切り課金（アプリ内課金）を実装・提供する場合があります。表示される広告の種類（パーソナライズ/非パーソナライズ等）や、課金の有無により、取り扱う情報の範囲が変わることがあります。
+</div>
+
+<div class="card toc">
+  <h2>目次</h2>
+  <ul>
+    <li><a href="#scope">1. 適用範囲</a></li>
+    <li><a href="#collected">2. 収集する情報</a></li>
+    <li><a href="#purpose">3. 利用目的</a></li>
+    <li><a href="#thirdparty">4. 第三者提供・外部送信（広告/計測/決済）</a></li>
+    <li><a href="#att">5. AppTrackingTransparency（ATT）について</a></li>
+    <li><a href="#retention">6. 保存期間</a></li>
+    <li><a href="#security">7. 安全管理</a></li>
+    <li><a href="#rights">8. 利用者の選択肢（オプトアウト等）</a></li>
+    <li><a href="#children">9. 児童のプライバシー</a></li>
+    <li><a href="#changes">10. 改定</a></li>
+    <li><a href="#contact">11. お問い合わせ</a></li>
+  </ul>
+</div>
+
+<h2 id="scope">1. 適用範囲</h2>
+<p>
+本プライバシーポリシーは、<strong>PIXEL REACTOR</strong>（以下「本アプリ」）における、利用者情報（個人情報を含み得る情報）の取扱いについて定めるものです。
+</p>
+
+<h2 id="collected">2. 収集する情報</h2>
+
+<h3>2.1 当方（開発者）が直接取得し得る情報</h3>
+<ul>
+  <li><strong>お問い合わせ情報</strong>：利用者が当方に連絡する際に入力する、氏名（任意）、メールアドレス、問い合わせ内容等。</li>
+  <li><strong>購入関連情報（買切り機能）</strong>：アプリ内課金の購入状態（例：買切りが有効かどうか）を確認するための情報（Apple が提供する仕組みにより処理されます）。</li>
+</ul>
+
+<h3>2.2 端末・利用状況に関する情報（主に第三者SDKが取得し得る情報）</h3>
+<p class="muted">
+本アプリが広告配信（AdMob）を利用する場合、Google Mobile Ads SDK 等が、広告配信・計測・不正防止のために、端末情報や利用状況を取得することがあります。
+</p>
+<ul>
+  <li><strong>IPアドレス</strong>（一般的な位置推定等に利用される場合があります）</li>
+  <li><strong>クラッシュログ/診断情報</strong>（品質改善、計測、不正防止等に利用される場合があります）</li>
+  <li><strong>パフォーマンスデータ</strong>（起動時間、ハング率、エネルギー使用量等）</li>
+  <li><strong>デバイスID</strong>（広告ID等の端末識別子、またはアプリ/開発者に紐づく識別子）</li>
+  <li><strong>広告データ</strong>（表示した広告、広告のパフォーマンス等）</li>
+  <li><strong>利用者の操作情報</strong>（起動、タップ、動画視聴等のインタラクション）</li>
+</ul>
+
+<h3>2.3 収集しないことを想定している情報（実装しない限り）</h3>
+<ul>
+  <li>アカウント登録情報（ログイン/会員登録機能を実装しない場合）</li>
+  <li>位置情報（GPS等の精密位置）</li>
+  <li>連絡先・写真・マイク等の端末データ</li>
+</ul>
+
+<h2 id="purpose">3. 利用目的</h2>
+<ul>
+  <li>本アプリの提供・維持・改善</li>
+  <li>不具合調査、品質改善、セキュリティ対策、不正利用の検知・防止</li>
+  <li>広告の配信、広告効果測定、広告の最適化（同意がある場合）</li>
+  <li>買切り機能の提供、購入状態の確認、サポート対応</li>
+  <li>お問い合わせ対応、利用者との連絡</li>
+</ul>
+
+<h2 id="thirdparty">4. 第三者提供・外部送信（広告/計測/決済）</h2>
+
+<h3>4.1 広告（Google AdMob）</h3>
+<p>
+本アプリは、広告配信のために <strong>Google AdMob</strong>（Google Mobile Ads SDK）を利用する場合があります。
+広告配信の過程で、Google またはそのパートナーが、上記「2.2」の情報を取得・利用することがあります。
+</p>
+<ul>
+  <li>Google の広告関連技術の説明：<span class="code">https://policies.google.com/technologies/ads</span></li>
+  <li>Google プライバシーポリシー：<span class="code">https://policies.google.com/privacy</span></li>
+</ul>
+
+<h3>4.2 アプリ内課金（買切り）</h3>
+<p>
+本アプリが買切り機能を提供する場合、決済・購入復元等は <strong>Apple のアプリ内課金</strong>（In-App Purchase）により処理されます。
+当方は、クレジットカード番号等の決済情報そのものを取得しません。
+</p>
+
+<h3>4.3（任意）メディエーション/その他SDK</h3>
+<p class="muted">
+将来、広告メディエーションや分析SDK等を追加する場合、本ポリシーを改定し、外部送信の範囲を明示します。
+</p>
+
+<h2 id="att">5. AppTrackingTransparency（ATT）について</h2>
+<p>
+iOS では、他社アプリやWebサイト等を横断して利用者を「追跡」する目的で広告ID等にアクセスする場合、<strong>AppTrackingTransparency（ATT）</strong> による許可が必要になることがあります。
+利用者が許可しない場合でも、広告の表示（例：非パーソナライズ広告/制限付き広告）が行われることがあります。
+</p>
+<p class="muted">
+追跡の定義や広告IDに関する説明は Apple の公開情報をご参照ください：<span class="code">https://developer.apple.com/app-store/user-privacy-and-data-use/</span>
+</p>
+
+<h2 id="retention">6. 保存期間</h2>
+<p>
+当方が直接取得するお問い合わせ情報は、対応に必要な期間および法令上必要な期間に限り保存し、その後適切に削除または匿名化します。
+第三者（広告事業者等）が取得する情報の保存期間は、当該第三者のポリシーに従います。
+</p>
+
+<h2 id="security">7. 安全管理</h2>
+<p>
+当方は、取得した情報の漏えい、滅失、毀損を防止するため、アクセス制御、権限管理、ログ管理等の合理的な安全管理措置を講じます。
+</p>
+
+<h2 id="rights">8. 利用者の選択肢（オプトアウト等）</h2>
+<ul>
+  <li><strong>広告のパーソナライズ</strong>：端末設定（追跡許可、広告設定）により、広告IDの利用やパーソナライズを制限できる場合があります。</li>
+  <li><strong>同意の管理</strong>：EEA/UK/スイス等の一部地域では、同意管理（CMP/UMP）により広告目的の同意を取得・撤回できるようにする場合があります。</li>
+  <li><strong>お問い合わせ情報</strong>：当方が保有する情報について、開示・訂正・削除等を希望する場合は「11. お問い合わせ」へご連絡ください。</li>
+</ul>
+
+<h2 id="children">9. 児童のプライバシー</h2>
+<p>
+本アプリは一般向けとして提供されます。法令上保護が必要な年齢の利用者に関する取扱い（同意取得、広告配信モード等）は、必要に応じて制限・調整します。
+</p>
+
+<h2 id="changes">10. 改定</h2>
+<p>
+当方は、法令改正、機能追加（広告/課金/分析等）、運用変更等に応じて本ポリシーを改定することがあります。重要な変更がある場合は、アプリ内または本ページで告知します。
+</p>
+
+<h2 id="contact">11. お問い合わせ</h2>
+<div class="card">
+  <p>開発者/事業者名：<span class="code">[あなた/あなたの会社名]</span></p>
+  <p>連絡先メール：<span class="code">[メールアドレス]</span></p>
+  <p class="muted">（必要に応じて住所や受付時間等も追記してください）</p>
+</div>
+
+    <div class="footer">
+      <div>© <span class="code">[あなた/あなたの会社名]</span> — 連絡先: <span class="code">[メールアドレス]</span></div>
+      <div style="margin-top:6px;">※ 本ページは一般的なテンプレートとして提供されます。法令要件や事業形態により内容の追加・調整が必要になる場合があります。</div>
+    </div>
+  </div>
+</body>
+</html>
